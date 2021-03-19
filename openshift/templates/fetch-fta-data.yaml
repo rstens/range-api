@@ -97,7 +97,7 @@ parameters:
   - name: 'IMAGE_NAMESPACE'
     displayName: 'Image Namespace'
     description: 'The locate of the image to use for this cron job.'
-    value: 'range-myra-tools'
+    value: '3187b2-tools'
     required: true
   - name: 'IMAGE_NAME'
     displayName: 'Image Name'

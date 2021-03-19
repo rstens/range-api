@@ -301,7 +301,7 @@
               ],
               "from": {
                 "kind": "ImageStreamTag",
-                "namespace": "range-myra-tools",
+                "namespace": "3187b2-tools",
                 "name": "postgres-postgis-rhel7:latest"
               }
             }
@@ -417,7 +417,7 @@
       "displayName": "Image Namespace",
       "required": true,
       "description": "The namespace of the OpenShift project containing the imagestream for the application.",
-      "value": "range-myra-tools"
+      "value": "3187b2-tools"
     },
     {
       "name": "NAMESPACE",

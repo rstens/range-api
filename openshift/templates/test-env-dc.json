@@ -405,7 +405,7 @@
       "displayName": "Image Namespace",
       "required": true,
       "description": "The namespace of the OpenShift project containing the imagestream for the application.",
-      "value": "range-myra-tools"
+      "value": "3187b2-tools"
     },
     {
       "name": "ENV_NAMESPACE",
@@ -510,7 +510,7 @@
       "name": "APP_URL",
       "displayName": "Application URL",
       "description": "The fully qualified external URL to access this service.",
-      "value": "https://web-range-myra-test.pathfinder.gov.bc.ca"
+      "value": "https://web-range-myra-test.apps.silver.devops.gov.bc.ca"
     }
   ]
 }
