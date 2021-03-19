@@ -8,7 +8,7 @@ def PIRATE_ICO = 'http://icons.iconarchive.com/icons/aha-soft/torrent/64/pirate-
 def JENKINS_ICO = 'https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png'
 def OPENSHIFT_ICO = 'https://commons.wikimedia.org/wiki/File:OpenShift-LogoType.svg'
 def SCHEMA_SPY_IMAGSTREAM_NAME = 'schema-spy'
-def PROJECT_NAMESPACE_BASE = 'range-myra-'
+def PROJECT_NAMESPACE_BASE = '3187b2-'
 def POD_LABEL = "${APP_NAME}-${UUID.randomUUID().toString()}"
 
 //  jenkins-slave-python3nod
@@ -182,7 +182,7 @@ podTemplate(label: "${POD_LABEL}", name: "${POD_LABEL}", serviceAccount: 'jenkin
 
         // For this to work the Jenkins service mush have edit permissions within the deployment project.
         // Example OC cmd to accomplish this task (it's better if you have project init scripts that do this);
-        // oc policy add-role-to-user edit system:serviceaccount:range-myra-tools:jenkins -n range-myra-dev
+        // oc policy add-role-to-user edit system:serviceaccount:3187b2-tools:jenkins -n 3187b2-dev
         
         echo "Scaling Schema Spy to trigger refresh"
 

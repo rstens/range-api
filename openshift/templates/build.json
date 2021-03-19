@@ -123,14 +123,14 @@
       "displayName": "Build Project",
       "description": "The openshift project where builds and target images are stored.",
       "required": true,
-      "value": "range-myra-tools"
+      "value": "3187b2-tools"
     },
     {
       "name": "GIT_REPO_URL",
       "displayName": "Git Repo URL",
       "description": "The URL to your GIT repo, don't use the this default unless your just experimenting.",
       "required": true,
-      "value": "https://github.com/bcgov/range-api.git"
+      "value": "https://github.com/rstens/range-api.git"
     },
     {
       "name": "GIT_REF",

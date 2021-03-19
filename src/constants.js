@@ -29,9 +29,9 @@ export const ENVIRONMENTS = {
 };
 
 export const API_URL = {
-  PROD: 'https://web-range-myra-prod.pathfinder.gov.bc.ca/api',
-  DEV: 'https://web-range-myra-dev.pathfinder.gov.bc.ca/api',
-  TEST: 'https://web-range-myra-test.pathfinder.gov.bc.ca/api',
+  PROD: 'https://web-range-myra-prod.apps.silver.devops.gov.bc.ca/api',
+  DEV: 'https://web-range-myra-dev.apps.silver.devops.gov.bc.ca/api',
+  TEST: 'https://web-range-myra-test.apps.silver.devops.gov.bc.ca/api',
 };
 
 export const TEMPLATES = {

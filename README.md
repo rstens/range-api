@@ -13,7 +13,7 @@ The goal is to move important crown land management documents from paper to digi
 - [MyRA Web application Github Repository](https://github.com/bcgov/range-web)
 - [MyRa API Github Repository](https://github.com/bcgov/range-api)
 - [Our current Sprint Backlog is visible on Github issues checkout the range-web and range-api repos to see what's going on]
-- [See the database Schema on Schema-Spy](http://schema-spy-range-myra-dev.pathfinder.gov.bc.ca/)
+- [See the database Schema on Schema-Spy](http://schema-spy-3187b2-dev.apps.silver.devops.gov.bc.ca/)
 
 ## Usage
 
